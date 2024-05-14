@@ -7,9 +7,9 @@ Este proyecto es una aplicación web para visualizar detalles de la carta Pokém
 
 ## Tecnologías Utilizadas
 
-- **Frontend**: Desarrollado con [Vite](https://vitejs.dev/) para un entorno de desarrollo rápido y eficiente.
-- **Paquete Manager**: Utiliza [Bun](https://bun.sh/) para la gestión de paquetes y dependencias.
-- **API**: Accede a la [Pokémon TCG API](https://dev.pokemontcg.io/) para obtener datos de las cartas.
+- **Frontend**: Desarrollado con [Vite](https://vitejs.dev/) y [Svelte](https://svelte.dev/) para un entorno de desarrollo rápido y eficiente.
+- **Gestor de Dependencias**: Utiliza [Bun](https://bun.sh/) para la gestión de paquetes y dependencias.
+- **API**: Accede a la [Pokémon TCG API](https://dev.pokemontcg.io/) para obtener datos de las cartas (registrate y puedes obtener gratis una API key).
 
 ## Comenzando
 
@@ -18,17 +18,28 @@ Antes de comenzar, asegúrate de tener instalado Bun en tu sistema.
 ### Instalación
 
 1. Clona el repositorio:
+
+`
 git clone https://github.com/esarmiem/tcg-gengar-ex.git
+`
 
 2. Navega al directorio del proyecto:
+
+`
 cd tcg-gengar-ex
+`
 
 3. Instala las dependencias con Bun:
+
+`
 bun install
+`
 
 4. Inicia el servidor de desarrollo:
-bun run dev
 
+`
+bun run dev
+`
 
 ## Funcionalidad
 
