@@ -2,6 +2,9 @@
 
 Este proyecto es una aplicación web para visualizar detalles de la carta Pokémon TCG Gengar ex (Temporal Forces 104) utilizando la API de Pokémon TCG.
 
+![image](https://github.com/esarmiem/tcg-gengar-ex/assets/114357859/ede57ad9-e1e2-4355-984d-33c3c518e3aa)
+
+
 ## Tecnologías Utilizadas
 
 - **Frontend**: Desarrollado con [Vite](https://vitejs.dev/) para un entorno de desarrollo rápido y eficiente.
@@ -10,7 +13,7 @@ Este proyecto es una aplicación web para visualizar detalles de la carta Pokém
 
 ## Comenzando
 
-Antes de comenzar, asegúrate de tener instalado Node.js y npm en tu sistema.
+Antes de comenzar, asegúrate de tener instalado Bun en tu sistema.
 
 ### Instalación
 
