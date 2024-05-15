@@ -35,7 +35,13 @@ cd tcg-gengar-ex
 bun install
 `
 
-4. Inicia el servidor de desarrollo:
+4. Crea en la ruta principal del proyecto un archivo con nombre `.env.local` y ahí agrega tu api key
+
+`
+VITE_API_KEY=aquí-pegas-tu-apikey-generada
+`
+
+5. Inicia el servidor de desarrollo:
 
 `
 bun run dev
@@ -44,6 +50,12 @@ bun run dev
 ## Funcionalidad
 
 La aplicación muestra detalles de la carta Gengar ex (Temporal Forces 104) y permite a los usuarios ver más información sobre la carta al hacer clic en ella, lo que redirige a la página correspondiente de Bulbapedia.
+
+Si deseas ver otra carta simplemente debes cambiar el id de la carta por otro de la documentación [pokemon-tcg-data](https://github.com/PokemonTCG/pokemon-tcg-data)
+
+`
+const id = "sv5-104"; // Reemplaza con el ID de la carta que deseas buscar
+`
 
 ## Contribuciones
 
