@@ -2,11 +2,11 @@
   import { onMount } from "svelte";
   let cardData = null;
 
-  const apiKey = "5df73c6b-cb8a-4658-a803-92d7466b883c";
   const id = "sv5-104"; // Reemplaza con el ID de la carta que deseas buscar
 
   async function fetchCard() {
     try {
+      const apiKey = import.meta.env.VITE_API_KEY;
       const response = await fetch(`https://api.pokemontcg.io/v2/cards/${id}`, {
         method: "GET",
         headers: {
