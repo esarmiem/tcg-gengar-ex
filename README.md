@@ -2,12 +2,13 @@
 
 Este proyecto es una aplicación web para visualizar detalles de la carta Pokémon TCG Gengar ex (Temporal Forces 104) utilizando la API de Pokémon TCG.
 
-![image](https://github.com/esarmiem/tcg-gengar-ex/assets/114357859/ede57ad9-e1e2-4355-984d-33c3c518e3aa)
+![gengar](https://github.com/esarmiem/tcg-gengar-ex/assets/114357859/d1ecd83d-10df-4e4e-843c-6b7a0bd32e55)
+
 
 
 ## Tecnologías Utilizadas
 
-- **Frontend**: Desarrollado con [Vite](https://vitejs.dev/) y [Svelte](https://svelte.dev/) para un entorno de desarrollo rápido y eficiente.
+- **Frontend**: Desarrollado con [Vite](https://vitejs.dev/) , [Svelte](https://svelte.dev/) y [Sass](https://sass-lang.com/) para un entorno de desarrollo rápido y eficiente.
 - **Gestor de Dependencias**: Utiliza [Bun](https://bun.sh/) para la gestión de paquetes y dependencias.
 - **API**: Accede a la [Pokémon TCG API](https://dev.pokemontcg.io/) para obtener datos de las cartas (registrate y puedes obtener gratis una API key).
 
@@ -61,6 +62,3 @@ const id = "sv5-104"; // Reemplaza con el ID de la carta que deseas buscar
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request antes de enviar cambios.
 
-## Licencia
-
-Este proyecto está licenciado bajo la licencia MIT - mira el archivo [LICENSE](LICENSE) para detalles.
