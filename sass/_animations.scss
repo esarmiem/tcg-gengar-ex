@@ -1,0 +1,114 @@
+@keyframes holoSparkle {
+    0%,
+    100% {
+      opacity: 0.75;
+      background-position: 50% 50%;
+      filter: brightness(1.2) contrast(1.25);
+    }
+    5%,
+    8% {
+      opacity: 1;
+      background-position: 40% 40%;
+      filter: brightness(0.8) contrast(1.2);
+    }
+    13%,
+    16% {
+      opacity: 0.5;
+      background-position: 50% 50%;
+      filter: brightness(1.2) contrast(0.8);
+    }
+    35%,
+    38% {
+      opacity: 1;
+      background-position: 60% 60%;
+      filter: brightness(1) contrast(1);
+    }
+    55% {
+      opacity: 0.33;
+      background-position: 45% 45%;
+      filter: brightness(1.2) contrast(1.25);
+    }
+  }
+  
+  @keyframes holoGradient {
+    0%,
+    100% {
+      opacity: 0.5;
+      background-position: 50% 50%;
+      filter: brightness(0.5) contrast(1);
+    }
+    5%,
+    9% {
+      background-position: 100% 100%;
+      opacity: 1;
+      filter: brightness(0.75) contrast(1.25);
+    }
+    13%,
+    17% {
+      background-position: 0% 0%;
+      opacity: 0.88;
+    }
+    35%,
+    39% {
+      background-position: 100% 100%;
+      opacity: 1;
+      filter: brightness(0.5) contrast(1);
+    }
+    55% {
+      background-position: 0% 0%;
+      opacity: 1;
+      filter: brightness(0.75) contrast(1.25);
+    }
+  }
+  
+  @keyframes holoCard {
+    0%,
+    100% {
+      transform: rotateZ(0deg) rotateX(0deg) rotateY(0deg);
+    }
+    5%,
+    8% {
+      transform: rotateZ(0deg) rotateX(6deg) rotateY(-20deg);
+    }
+    13%,
+    16% {
+      transform: rotateZ(0deg) rotateX(-9deg) rotateY(32deg);
+    }
+    35%,
+    38% {
+      transform: rotateZ(3deg) rotateX(12deg) rotateY(20deg);
+    }
+    55% {
+      transform: rotateZ(-3deg) rotateX(-12deg) rotateY(-27deg);
+    }
+  }
+
+  @keyframes rubberBand {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }

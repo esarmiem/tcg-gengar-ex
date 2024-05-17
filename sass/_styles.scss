@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+  background-color: #333844;
+  padding: 0;
+  z-index: 1;
+  transform: translate3d(0, 0, 0.1px);
+}
+
+body {
+  color: white;
+  background-color: #333844;
+  font-family: "Heebo", sans-serif;
+  text-align: center;
+}
+
+#app {
+  position: relative;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.3);
+  margin-top: 0;
+  animation: rubberBand 1.5s linear 3s 1;
+}
+
+.promo {
+  margin-top: 50px;
+}
+
+.promo img {
+  margin-top: 10px;
+  max-width: 80%;
+}
+
+p a {
+  color: cyan;
+}
+
+html,
+body,
+main {
+  min-height: 100%;
+}
